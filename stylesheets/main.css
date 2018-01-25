@@ -1,0 +1,13 @@
+body {
+  background-color: red;
+}
+
+.game-holder {
+  display: block;
+  margin: auto;
+}
+
+#canvas {
+  background-image: url("https://i.imgur.com/GGXD0OR.jpg");
+  background-size: cover;
+}
