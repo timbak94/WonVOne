@@ -11,3 +11,7 @@ body {
   background-image: url("https://i.imgur.com/GGXD0OR.jpg");
   background-size: cover;
 }
+
+#boss-hp {
+  -webkit-appearance: slider-vertical
+}
