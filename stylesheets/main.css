@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.game-holder {
+#game-holder {
   display: block;
   width: 900px;
   margin: auto;
@@ -53,9 +53,12 @@ body {
 }
 
 #popin {
-  height: 500px;
+  opacity: 0.9;
+  margin: auto;
+  height: 580px;
   width: auto;
   position: absolute;
+  left: 36%
 }
 
 #result {
