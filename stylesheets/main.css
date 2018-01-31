@@ -1,16 +1,21 @@
 body {
-  background-color: white;
-  display: flex;
+  background-image: url("https://i.imgur.com/GGXD0OR.jpg");
+  background-repeat: no-repeat;
 }
 
 .game-holder {
   display: block;
+  width: 900px;
   margin: auto;
-  padding: 20px;
-  background-color: red;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  background-image: url("../images/texture.png");
+  background-repeat: repeat;
 }
 
 #canvas {
+  margin: auto;
   background-image: url("https://i.imgur.com/GGXD0OR.jpg");
   background-size: cover;
 }
@@ -19,8 +24,8 @@ body {
 #boss-hp {
   -webkit-appearance: none;
    appearance: none;
-   width: 820px;
-   height: 50px;
+   width: 620px;
+   height: 30px;
    background-color: #383838; /* Grey background */
    outline: none;
    opacity: 1;
@@ -32,7 +37,7 @@ body {
 }
 
 #boss-hp::-webkit-slider-runnable-track {
-  height: 50px;
+  height: 30px;
   -webkit-appearance: none;
   color: #13bba4;
 }
@@ -41,10 +46,10 @@ body {
   -webkit-appearance: none;
   appearance: none;
   width: 1px;
-  height: 50px;
+  height: 30px;
   background: #ee512f;
   cursor: pointer;
-  box-shadow: -820px 0 0 820px #ee512f;
+  box-shadow: -620px 0 0 620px #ee512f;
 }
 
 #popin {
@@ -66,5 +71,12 @@ body {
 }
 
 .lighten {
-  transition: 
+  transition:
+}
+
+#start-menu {
+  position: absolute;
+  width: 900px;
+  height: 500px;
+  background-color: white;
 }
