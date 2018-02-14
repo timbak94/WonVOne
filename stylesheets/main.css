@@ -22,18 +22,21 @@ body {
 
 
 #boss-hp {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
   -webkit-appearance: none;
-   appearance: none;
-   width: 620px;
-   height: 30px;
-   background-color: #383838; /* Grey background */
-   outline: none;
-   opacity: 1;
-   -webkit-transition: .2s;
-   transition: opacity .2s;
-   cursor: pointer;
-   overflow:hidden;
-   border-radius: 10px;
+  appearance: none;
+  width: 620px;
+  height: 30px;
+  background-color: #383838; /* Grey background */
+  outline: none;
+  opacity: 1;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  cursor: pointer;
+  overflow:hidden;
+  border-radius: 10px;
 }
 
 #boss-hp::-webkit-slider-runnable-track {
